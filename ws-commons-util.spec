@@ -1,6 +1,6 @@
 Name:           ws-commons-util
 Version:        1.0.1
-Release:        28%{?dist}
+Release:        29%{?dist}
 Summary:        Common utilities from the Apache Web Services Project
 
 License:        ASL 2.0
@@ -66,6 +66,9 @@ Summary:        Javadoc for %{name}
 %doc LICENSE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0.1-29
+- Mass rebuild 2013-12-27
+
 * Mon Aug 19 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> 1.0.1-28
 - Migrate away from mvn-rpmbuild (#997459)
 
